@@ -3,20 +3,35 @@ require 'open-uri'
 
 Bundler.require
 
+DataMapper.setup(:default, 'sqlite:///Users/merylcharleston/Documents/lollaproject/db/lolla.db')
+
+class Band
+  attr_accessor :name, :votes
+
+  def initialize(band_name, votes = 0)
+    self.name = band_name
+    self.votes = votes
+  end
+end
+# band = Band.new
+# band.name = 'something'
+# band.name
+# => 'something'
+
+DataMapper.finalize
+DataMapper.auto_upgrade!
+$bands = []
+band_names = File.open("bands.txt").read.split("\n")
+  band_names.each do |band_name|
+    $bands << Band.new(band_name)
+  end
 get '/' do
-  doc =  Nokogiri::HTML(open("http://lineup.lollapalooza.com"))
-  @blah = Array.new
-  x = 0
-  y = 0
-  doc.css("a.band").each do |band|
-    @blah[x]= band.text
-    x = x + 1
-  end
-  @foo = Array.new
-  doc.css("a.band").each do |band|
-    @foo[y]= band
-    y = y + 1
-  end
   haml :index
   #"Hello, World!"
+end
+
+get '/:id/upvote' do
+  x = params[:id].to_i
+  "#{$band[x].votes}"
+  #redirect '/'
 end
