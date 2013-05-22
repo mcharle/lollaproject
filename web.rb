@@ -29,6 +29,7 @@ get '/' do
   File.open("bands.txt").read.split("\n").each do |line|
   attributes = line.split(',')
   $bands << Band.new(attributes[0], attributes[1].to_i)
+  $bands = $bands.sort_by{|b| b.name}.reverse
   $bands = $bands.sort_by{|b| b.votes}.reverse
 end
   haml :index

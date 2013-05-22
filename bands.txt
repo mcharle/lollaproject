@@ -1,8 +1,8 @@
-The Cure,1
+The Cure,0
 Mumford & Sons,0
-The Killers,10
+The Killers,1
 Nine Inch Nails,0
-Phoenix,0
+Phoenix,1
 The Postal Service,0
 Vampire Weekend,0
 New Order,0
@@ -20,7 +20,7 @@ Grizzly Bear,0
 Thievery Corporation,0
 Flux Pavilion,0
 Band Of Horses,0
-Major Lazer,0
+Major Lazer,2
 Two Door Cinema Club,0
 Hot Chip,0
 Azealia Banks,0
@@ -31,7 +31,7 @@ Crystal Castles,0
 Dada Life,0
 Tegan and Sara,0
 Lana Del Rey,0
-Beach House,0
+Beach House,1
 Cat Power,0
 Frightened Rabbit,0
 Matt & Kim,0
@@ -40,7 +40,7 @@ Foals,0
 Death Grips,0
 Dillon Francis,0
 Court Yard Hounds,0
-Smith Westerns,0
+Smith Westerns,1
 Disclosure,0
 Adventure Club,0
 Ben Howard,0

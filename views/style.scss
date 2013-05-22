@@ -20,18 +20,35 @@ body{
   width: 80%;
   text-align: center;
   padding: 5px;
-  float: left;
   height: 80px;
   border-radius: 7px;
   margin: 2px;
-  font-weight: bold;
-}
-button{
-  background-color: #FFF;
-  border-radius: 5px;
-  border-color: #DDD;
-  border-width: 1px;
+  .name{
+    font-weight: bold;
+    float: left;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .votes{
+    float: right;
+    width: 20%;
+    margin-right: 5%;
+    font-size: 50px;
+    //margin-top: 20px;
+  }
+  button{
+    float: right;
+    width: 150px;
+    font-size: 20px;
+    font-family: Corbel;
+    padding: 8px;
+    margin-top: 25px;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #444;
+  }
 }
 .header{
   font-size: 60px;
+  padding: 10px;
 }
