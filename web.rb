@@ -4,15 +4,13 @@ require 'json'
 
 Bundler.require
 
-DataMapper.setup(:default, 'sqlite:///Users/merylcharleston/Documents/lollaproject/db/lolla.db')
-
 class Band
-  attr_accessor :name, :votes, :url
+  attr_accessor :name, :votes
 
-  def initialize(band_name, votes = 0, url)
+  def initialize(band_name, votes)
     self.name = band_name
     self.votes = votes
-    self.url = band_name.gsub(" ", "-")
+    #self.url = band_name.gsub(" ", "-")
   end
 end
 # band = Band.new
@@ -20,18 +18,19 @@ end
 # band.name
 # => 'something'
 
-DataMapper.finalize
-DataMapper.auto_upgrade!
 $bands = []
-File.open("bands.txt").read.split("\n").each do |line|
-  attributes = line.split(',')
-  $bands << Band.new(attributes[0], attributes[1].to_i)
-end
+
+
 
 get '/style.css' do
   scss :style
 end
 get '/' do
+  File.open("bands.txt").read.split("\n").each do |line|
+  attributes = line.split(',')
+  $bands << Band.new(attributes[0], attributes[1].to_i)
+  $bands = $bands.sort_by{|b| b.votes}.reverse
+end
   haml :index
   #"Hello, World!"
 end
@@ -42,6 +41,11 @@ post '/vote' do
   band_name = params[:band_name]
 
   vote(band_name).to_json
+end
+
+
+get '/info' do
+  haml :info
 end
 
 def vote(band_name)
