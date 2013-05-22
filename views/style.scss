@@ -1,0 +1,37 @@
+.band:nth-child(even){
+  //background-color: lighten(#ED9121, 20%);
+  border-color: #ED9121;
+}
+.band:nth-child(odd){
+  //background-color: lighten(#67E6EC, 20%);
+  border-color: #67E6EC;
+}
+body{
+  //background-color: #000;
+  font-family: Corbel;
+  margin: 0 auto;
+  width: 960px;
+  text-align: center;
+}
+.band{
+  border-style: solid;
+  background-color: #FFF;
+  border-width: 6px;
+  width: 170px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  height: 80px;
+  border-radius: 7px;
+  margin: 2px;
+  font-weight: bold;
+}
+button{
+  background-color: #FFF;
+  border-radius: 5px;
+  border-color: #DDD;
+  border-width: 1px;
+}
+.header{
+  font-size: 60px;
+}
