@@ -5,11 +5,12 @@ require 'json'
 Bundler.require
 
 class Band
-  attr_accessor :name, :votes
+  attr_accessor :name, :votes, :time
 
-  def initialize(band_name, votes)
+  def initialize(band_name, votes, playtime)
     self.name = band_name
     self.votes = votes
+    self.time = playtime
     #self.url = band_name.gsub(" ", "-")
   end
 end
@@ -19,19 +20,27 @@ end
 # => 'something'
 
 $bands = []
+$times = []
+x = 0
 
-
+File.open("times.txt").read.split("\n").each do |line|
+  $times[x] = line
+  x+=1
+end
 
 get '/style.css' do
   scss :style
 end
+
 get '/' do
+  x = 0
   File.open("bands.txt").read.split("\n").each do |line|
-  attributes = line.split(',')
-  $bands << Band.new(attributes[0], attributes[1].to_i)
+    attributes = line.split(',')
+    $bands << Band.new(attributes[0], attributes[1].to_i, $times[x])
+    x+=1
+  end
   $bands = $bands.sort_by{|b| b.name}.reverse
   $bands = $bands.sort_by{|b| b.votes}.reverse
-end
   haml :index
   #"Hello, World!"
 end
