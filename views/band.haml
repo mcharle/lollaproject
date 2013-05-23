@@ -1,6 +1,30 @@
 %html
   %head
-    %title= @nameOfBand
-    %link{rel: "stylesheet", href: "style.css"}
+    %title#band= @nameOfBand
+    %link{rel: "stylesheet", href: "/style.css"}
   %body
     .header= @nameOfBand
+    #disqus_thread
+
+%script{type: "text/javascript"}
+:javascript
+  var disqus_shortname = 'lollaapp';
+  var disqus_identifier = document.getElementById('band').innerHTML;
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+%script{src: "//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"}
+:javascript
+    $('.band .vote').click(function(event) {
+      $button = $(event.currentTarget);
+      $voteCount = $button.siblings('.votes');
+      bandName = $button.siblings('.name').text();
+      //console.log(bandName)
+      $.post('/vote', {band_name: bandName} , function(data) {
+        $voteCount.text(data.votes);
+      });
+      $button.attr("disabled", "disabled");
+    });
