@@ -2,7 +2,7 @@ The Cure,0
 Mumford & Sons,0
 The Killers,1
 Nine Inch Nails,0
-Phoenix,1
+Phoenix,2
 The Postal Service,0
 Vampire Weekend,0
 New Order,0
@@ -20,7 +20,7 @@ Grizzly Bear,1
 Thievery Corporation,0
 Flux Pavilion,0
 Band Of Horses,0
-Major Lazer,2
+Major Lazer,3
 Two Door Cinema Club,0
 Hot Chip,0
 Azealia Banks,1

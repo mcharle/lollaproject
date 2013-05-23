@@ -49,6 +49,11 @@ get '/info' do
   haml :info
 end
 
+get '/band/:bandName' do
+  @nameOfBand = params[:bandName].gsub("_", " ")
+  haml :band
+end
+
 def vote(band_name)
   bands_text = File.open('bands.txt').read
 
