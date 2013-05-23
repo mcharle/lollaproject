@@ -9,6 +9,7 @@
   - $bands.each do |band|
     .band
       .name= band.name
+      .time= band.time
       %button.vote Upvote
       %button.go
         %a{href: "/band/#{band.name.gsub(" ", "_")}"} Comment

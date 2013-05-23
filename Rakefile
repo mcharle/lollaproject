@@ -14,19 +14,19 @@ task :fetchtimes do
   doc =  Nokogiri::HTML(open("http://lineup.lollapalooza.com/events/2013/08/03"))
     File.open("times.txt", "w+") do |file|
       doc.css(".ds-time-range").each do |blah|
-        file.write(blah.text+"\n")
+        file.write("Friday, "+blah.text+"\n")
     end
   end
   doc =  Nokogiri::HTML(open("http://lineup.lollapalooza.com/events/2013/08/04"))
     File.open("times.txt", "a+") do |file|
       doc.css(".ds-time-range").each do |blah|
-        file.write(blah.text+"\n")
+        file.write("Saturday, "+blah.text+"\n")
     end
   end
   doc =  Nokogiri::HTML(open("http://lineup.lollapalooza.com/events/2013/08/05"))
     File.open("times.txt", "a+") do |file|
       doc.css(".ds-time-range").each do |blah|
-        file.write(blah.text+"\n")
+        file.write("Sunday, "+blah.text+"\n")
     end
   end
 end
