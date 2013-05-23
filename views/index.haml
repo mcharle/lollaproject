@@ -12,6 +12,15 @@
         %button.vote Upvote
         .votes= band.votes
         //%a{href: "http://lineup.lollapalooza.com/band/#{band.url}"} band
+  #disqus_thread
+  %script{type: "text/javascript"}
+  :javascript
+    var disqus_shortname = 'lollaapp';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
 
 %script{src: "//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"}
 :javascript

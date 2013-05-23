@@ -16,14 +16,14 @@ Steve Angello,0
 Knife Party,0
 Steve Aoki,0
 Imagine Dragons,0
-Grizzly Bear,0
+Grizzly Bear,1
 Thievery Corporation,0
 Flux Pavilion,0
 Band Of Horses,0
 Major Lazer,2
 Two Door Cinema Club,0
 Hot Chip,0
-Azealia Banks,0
+Azealia Banks,1
 2 Chainz,0
 Dog Blood,0
 Local Natives,0
