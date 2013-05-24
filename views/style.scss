@@ -1,11 +1,23 @@
 .band:nth-child(even){
   //background-color: lighten(#ED9121, 20%);
   border-color: #ED9121;
+  // .b{
+  //   background-color: #ED9121;
+  //   height: inherit;
+  // }
+  opacity: .7;
 }
+  
 .band:nth-child(odd){
   //background-color: lighten(#67E6EC, 20%);
-  border-color: #67E6EC;
+  border-color: #0EBFE9;
+  // .b{
+  //   background-color: #67E6EC;
+  //   height: inherit;
+  // }
+  opacity: .6;
 }
+  
 body{
   //background-color: #000;
   font-family: Corbel;
@@ -21,9 +33,9 @@ a{
 }
 .band{
   border-style: solid;
-  background-color: #FFF;
+  //background-color: #FFF;
   border-width: 6px;
-  width: 85%;
+  width: 87%;
   text-align: center;
   padding: 5px;
   height: 80px;
@@ -48,7 +60,7 @@ a{
     font-size: 20px;
     font-family: Corbel;
     padding: 8px;
-    margin-top: 25px;
+    margin-top: 20px;
     border-radius: 7px;
     color: #fff;
     background-color: #444;

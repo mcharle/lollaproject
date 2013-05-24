@@ -23,7 +23,7 @@ Band Of Horses,0
 Major Lazer,3
 Two Door Cinema Club,0
 Hot Chip,0
-Azealia Banks,1
+Azealia Banks,2
 2 Chainz,0
 Dog Blood,0
 Local Natives,0
@@ -31,7 +31,7 @@ Crystal Castles,0
 Dada Life,0
 Tegan and Sara,0
 Lana Del Rey,0
-Beach House,1
+Beach House,2
 Cat Power,0
 Frightened Rabbit,0
 Matt & Kim,0
