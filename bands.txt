@@ -1,7 +1,7 @@
 The Cure,0
 Mumford & Sons,0
-The Killers,1
-Nine Inch Nails,0
+The Killers,3
+Nine Inch Nails,1
 Phoenix,2
 The Postal Service,0
 Vampire Weekend,0
@@ -20,7 +20,7 @@ Grizzly Bear,1
 Thievery Corporation,0
 Flux Pavilion,0
 Band Of Horses,0
-Major Lazer,3
+Major Lazer,4
 Two Door Cinema Club,0
 Hot Chip,0
 Azealia Banks,2
@@ -70,7 +70,7 @@ IO Echo,0
 Unknown Mortal Orchestra,0
 Icona Pop,0
 Alvin Risk,0
-Chance The Rapper,0
+Chance The Rapper,1
 Lance Herbstrong,0
 Jake Bugg,0
 Wild Belle,0

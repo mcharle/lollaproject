@@ -5,7 +5,7 @@
   //   background-color: #ED9121;
   //   height: inherit;
   // }
-  opacity: .7;
+  //opacity: .7;
 }
   
 .band:nth-child(odd){
@@ -15,7 +15,7 @@
   //   background-color: #67E6EC;
   //   height: inherit;
   // }
-  opacity: .6;
+  //opacity: .6;
 }
   
 body{
@@ -31,6 +31,9 @@ a{
   border-color: inherit;
   text-decoration: none;
 }
+.h{
+  height: 100px;
+}
 .band{
   border-style: solid;
   //background-color: #FFF;
@@ -40,7 +43,7 @@ a{
   padding: 5px;
   height: 80px;
   border-radius: 7px;
-  margin: 2px;
+  margin: 0 auto;
   .name{
     font-weight: bold;
     float: left;
@@ -55,6 +58,7 @@ a{
     //margin-top: 20px;
   }
   button{
+    //visibility: hidden;
     float: right;
     width: 150px;
     font-size: 20px;
@@ -67,6 +71,11 @@ a{
   }
 }
 .header{
+  text-align: center;
   font-size: 60px;
   padding: 10px;
+  margin: 0 auto;
 }
+
+
+
