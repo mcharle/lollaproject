@@ -24,14 +24,14 @@ a {
   text-align: center;
   width: 87%;
 
-  -webkit-transition: height 0.2s ease-in-out;
+  -webkit-transition: width 0.2s ease-in-out;
 
   &:nth-child(even){
     border-color: #ED9121;
   }
 
   &:hover {
-    height: 100px;
+    width: 90%;
   }
 
 
