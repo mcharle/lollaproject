@@ -16,6 +16,7 @@
       .votes= band.votes
 
 %script{src: "//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"}
+
 :javascript
     $('.band').load(function(){
     })
@@ -28,10 +29,3 @@
       });
       $button.attr("disabled", "disabled");
     });
-    $('.band').on('mouseenter',function(){
-      $(this).animate({height: 100}, 200)
-      /$('button').animate({visibility: visible}, 10)
-    })
-    $('.band').on('mouseleave',function(){
-      $(this).animate({height: 80}, 200)
-    })
