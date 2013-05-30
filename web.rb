@@ -18,14 +18,18 @@ get '/style.css' do
 end
 
 get '/' do
-  bands = []
-  x = 0
 
-  File.open("bands.txt").read.split("\n").each do |line|
-    attributes = line.split(',')
-    bands << Band.new(attributes[0], attributes[1].to_i)
-    x+=1
+  if defined?(bands)==nil
+    bands = []
+    x = 0
+
+    File.open("bands.txt").read.split("\n").each do |line|
+      attributes = line.split(',')
+      bands << Band.new(attributes[0], attributes[1].to_i)
+      x+=1
+    end
   end
+
   bands = bands.sort_by{|b| b.name}.reverse
   bands = bands.sort_by{|b| b.votes}.reverse
 
