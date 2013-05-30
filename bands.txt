@@ -1,8 +1,8 @@
 The Cure,0
 Mumford & Sons,0
-The Killers,3
-Nine Inch Nails,1
-Phoenix,2
+The Killers,0
+Nine Inch Nails,0
+Phoenix,0
 The Postal Service,0
 Vampire Weekend,0
 New Order,0
@@ -16,14 +16,14 @@ Steve Angello,0
 Knife Party,0
 Steve Aoki,0
 Imagine Dragons,0
-Grizzly Bear,1
+Grizzly Bear,0
 Thievery Corporation,0
 Flux Pavilion,0
 Band Of Horses,0
-Major Lazer,4
+Major Lazer,0
 Two Door Cinema Club,0
 Hot Chip,0
-Azealia Banks,2
+Azealia Banks,1
 2 Chainz,0
 Dog Blood,0
 Local Natives,0
@@ -31,7 +31,7 @@ Crystal Castles,0
 Dada Life,0
 Tegan and Sara,0
 Lana Del Rey,0
-Beach House,2
+Beach House,0
 Cat Power,0
 Frightened Rabbit,0
 Matt & Kim,0
@@ -40,7 +40,7 @@ Foals,0
 Death Grips,0
 Dillon Francis,0
 Court Yard Hounds,0
-Smith Westerns,1
+Smith Westerns,0
 Disclosure,0
 Adventure Club,0
 Ben Howard,0
@@ -70,7 +70,7 @@ IO Echo,0
 Unknown Mortal Orchestra,0
 Icona Pop,0
 Alvin Risk,0
-Chance The Rapper,1
+Chance The Rapper,0
 Lance Herbstrong,0
 Jake Bugg,0
 Wild Belle,0
@@ -125,3 +125,4 @@ Brite Lite Brite,0
 Beast Patrol,0
 RVSB,0
 Stratus,0
+Drowners,0
