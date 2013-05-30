@@ -13,22 +13,23 @@ class Band
   end
 end
 
-$bands = []
-x = 0
-
 get '/style.css' do
   scss :style
 end
 
 get '/' do
+  bands = []
   x = 0
+
   File.open("bands.txt").read.split("\n").each do |line|
     attributes = line.split(',')
-    $bands << Band.new(attributes[0], attributes[1].to_i)
+    bands << Band.new(attributes[0], attributes[1].to_i)
     x+=1
   end
-  $bands = $bands.sort_by{|b| b.name}.reverse
-  $bands = $bands.sort_by{|b| b.votes}.reverse
+  bands = bands.sort_by{|b| b.name}.reverse
+  bands = bands.sort_by{|b| b.votes}.reverse
+
+  @bands = bands
 
   haml :index
 end
@@ -66,8 +67,4 @@ def vote(band_name)
 
   { votes: updated_votes_count }
 end
-
-
-
-
 
