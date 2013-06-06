@@ -10,9 +10,9 @@ a {
   border-radius: 7px;
   border-style: solid;
   border-width: 6px;
-  height: 80px;
+  overflow: hidden;
   margin: 0 auto;
-  padding: 5px;
+  padding: 40px;
   text-align: center;
   width: 87%;
 
@@ -26,28 +26,26 @@ a {
     width: 90%;
   }
 
-
   .name {
     font-weight: bold;
     float: left;
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 35px;
+    line-height: 45px;
   }
 
   .votes {
     float: right;
     margin-right: 5%;
     font-size: 50px;
+    line-height: 40px;
   }
 
   button {
-    //visibility: hidden;
     float: right;
     width: 150px;
     font-size: 20px;
     font-family: Corbel;
     padding: 8px;
-    margin-top: 20px;
     border-radius: 7px;
     color: #fff;
     background-color: #444;
@@ -55,11 +53,12 @@ a {
 }
 
 body {
-  //background-color: #000;
   font-family: Corbel;
+}
+
+.container{
   margin: 0 auto;
   width: 80%;
-  //text-align: center;
 }
 
 .header {

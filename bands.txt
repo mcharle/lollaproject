@@ -1,93 +1,93 @@
-The Cure,0
-Mumford & Sons,0
-The Killers,0
-Nine Inch Nails,0
-Phoenix,0
-The Postal Service,0
-Vampire Weekend,0
-New Order,0
-Queens Of The Stone Age,0
-The National,0
-The Lumineers,0
-Kendrick Lamar,0
+The Cure,4
+Mumford & Sons,10
+The Killers,15
+Nine Inch Nails,2
+Phoenix,7
+The Postal Service,6
+Vampire Weekend,12
+New Order,1
+Queens Of The Stone Age,1
+The National,3
+The Lumineers,10
+Kendrick Lamar,34
 Eric Church,0
-Ellie Goulding,0
-Steve Angello,0
-Knife Party,0
-Steve Aoki,0
-Imagine Dragons,0
-Grizzly Bear,0
+Ellie Goulding,9
+Steve Angello,2
+Knife Party,7
+Steve Aoki,7
+Imagine Dragons,14
+Grizzly Bear,11
 Thievery Corporation,0
-Flux Pavilion,0
-Band Of Horses,0
-Major Lazer,0
-Two Door Cinema Club,0
-Hot Chip,0
-Azealia Banks,1
-2 Chainz,0
+Flux Pavilion,6
+Band Of Horses,10
+Major Lazer,10
+Two Door Cinema Club,7
+Hot Chip,3
+Azealia Banks,30
+2 Chainz,11
 Dog Blood,0
-Local Natives,0
-Crystal Castles,0
-Dada Life,0
-Tegan and Sara,0
-Lana Del Rey,0
-Beach House,0
-Cat Power,0
-Frightened Rabbit,0
-Matt & Kim,0
-Alt-J,0
-Foals,0
-Death Grips,0
-Dillon Francis,0
+Local Natives,5
+Crystal Castles,11
+Dada Life,3
+Tegan and Sara,2
+Lana Del Rey,19
+Beach House,9
+Cat Power,7
+Frightened Rabbit,1
+Matt & Kim,7
+Alt-J,4
+Foals,2
+Death Grips,1
+Dillon Francis,4
 Court Yard Hounds,0
-Smith Westerns,0
-Disclosure,0
-Adventure Club,0
-Ben Howard,0
+Smith Westerns,4
+Disclosure,3
+Adventure Club,5
+Ben Howard,4
 The Vaccines,0
-GriZ,0
-Father John Misty,0
+GriZ,3
+Father John Misty,1
 Ghost B.C.,0
-Modestep,0
+Modestep,2
 Charles Bradley,0
-DIIV,0
-Alex Clare,0
+DIIV,3
+Alex Clare,2
 Heartless Bastards,0
-Baauer,0
+Baauer,5
 Baroness,0
-Lianne La Havas,0
+Lianne La Havas,1
 Emeli Sande,0
-Wild Nothing,0
-Jessie Ware,0
-Atlas Genius,0
-HAIM,0
-Angel Haze,0
-Timeflies,0
-Theophilus London,0
-Kill the Noise,0
-Wavves,0
+Wild Nothing,2
+Jessie Ware,2
+Atlas Genius,3
+HAIM,1
+Angel Haze,2
+Timeflies,1
+Theophilus London,4
+Kill the Noise,2
+Wavves,3
 IO Echo,0
-Unknown Mortal Orchestra,0
-Icona Pop,0
-Alvin Risk,0
-Chance The Rapper,0
-Lance Herbstrong,0
+Unknown Mortal Orchestra,1
+Icona Pop,7
+Alvin Risk,1
+Chance The Rapper,29
+Lance Herbstrong,1
 Jake Bugg,0
-Wild Belle,0
+Wild Belle,2
 Art Department,0
-MS MR,0
-St. Lucia,0
+MS MR,1
+St. Lucia,1
 Shovels & Rope,0
 Guards,0
 Monsta,0
 Robert DeLong,0
 Little Green Cars,0
 Deap Vally,0
-Family of the Year,0
+Family of the Year,1
 360,0
 The Bright Light Social Hour,0
-Twenty One Pilots,0
-San Cisco,0
+Twenty One Pilots,2
+San Cisco,1
 Hey Marseilles,0
 Skaters,0
 The Orwells,0
@@ -99,30 +99,30 @@ Machines Are People Too,0
 Planet Hemp,0
 Yawn,0
 Keys N Krates,0
-The Neighbourhood,0
+The Neighbourhood,2
 Cole Plante,0
-Half Moon Run,0
-The Mowgli's,0
+Half Moon Run,1
+The Mowgli's,2
 Pacific Air,0
 Lukas Nelson & P.O.T.R.,0
-Blondfire,0
+Blondfire,1
 Frontier Ruckus,0
 Wheeler Brothers,0
-Wake Owl,0
-Bear Mountain,0
+Wake Owl,2
+Bear Mountain,1
 American Authors,0
 O'Brother,0
 The Dunwells,0
 Houndmouth,0
-Supreme Cuts,0
+Supreme Cuts,2
 Brick + Mortar,0
 Cherub,0
 Makeshift Prodigy,0
 Wild Cub,0
-D-Pryde,0
+D-Pryde,1
 Brooke Waggoner,0
 Brite Lite Brite,0
 Beast Patrol,0
 RVSB,0
-Stratus,0
+Stratus,1
 Drowners,0
