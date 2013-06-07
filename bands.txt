@@ -1,46 +1,46 @@
 The Cure,4
-Mumford & Sons,10
-The Killers,15
+Mumford & Sons,12
+The Killers,16
 Nine Inch Nails,2
 Phoenix,7
-The Postal Service,6
-Vampire Weekend,12
+The Postal Service,7
+Vampire Weekend,14
 New Order,1
 Queens Of The Stone Age,1
-The National,3
-The Lumineers,10
-Kendrick Lamar,34
+The National,4
+The Lumineers,11
+Kendrick Lamar,35
 Eric Church,0
-Ellie Goulding,9
+Ellie Goulding,11
 Steve Angello,2
 Knife Party,7
 Steve Aoki,7
 Imagine Dragons,14
-Grizzly Bear,11
+Grizzly Bear,12
 Thievery Corporation,0
-Flux Pavilion,6
-Band Of Horses,10
-Major Lazer,10
+Flux Pavilion,8
+Band Of Horses,11
+Major Lazer,11
 Two Door Cinema Club,7
 Hot Chip,3
-Azealia Banks,30
+Azealia Banks,31
 2 Chainz,11
 Dog Blood,0
-Local Natives,5
-Crystal Castles,11
-Dada Life,3
-Tegan and Sara,2
-Lana Del Rey,19
-Beach House,9
-Cat Power,7
+Local Natives,7
+Crystal Castles,13
+Dada Life,4
+Tegan and Sara,3
+Lana Del Rey,20
+Beach House,11
+Cat Power,8
 Frightened Rabbit,1
 Matt & Kim,7
-Alt-J,4
+Alt-J,6
 Foals,2
 Death Grips,1
 Dillon Francis,4
 Court Yard Hounds,0
-Smith Westerns,4
+Smith Westerns,5
 Disclosure,3
 Adventure Club,5
 Ben Howard,4
@@ -48,7 +48,7 @@ The Vaccines,0
 GriZ,3
 Father John Misty,1
 Ghost B.C.,0
-Modestep,2
+Modestep,3
 Charles Bradley,0
 DIIV,3
 Alex Clare,2
@@ -56,13 +56,13 @@ Heartless Bastards,0
 Baauer,5
 Baroness,0
 Lianne La Havas,1
-Emeli Sande,0
+Emeli Sande,1
 Wild Nothing,2
-Jessie Ware,2
+Jessie Ware,3
 Atlas Genius,3
 HAIM,1
-Angel Haze,2
-Timeflies,1
+Angel Haze,3
+Timeflies,2
 Theophilus London,4
 Kill the Noise,2
 Wavves,3
@@ -70,7 +70,7 @@ IO Echo,0
 Unknown Mortal Orchestra,1
 Icona Pop,7
 Alvin Risk,1
-Chance The Rapper,29
+Chance The Rapper,30
 Lance Herbstrong,1
 Jake Bugg,0
 Wild Belle,2
@@ -86,7 +86,7 @@ Deap Vally,0
 Family of the Year,1
 360,0
 The Bright Light Social Hour,0
-Twenty One Pilots,2
+Twenty One Pilots,3
 San Cisco,1
 Hey Marseilles,0
 Skaters,0
