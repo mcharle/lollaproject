@@ -11,4 +11,4 @@ I then added voting. When a user clicks the "upvote" button, a handler will sear
 ing vote count and increase it by 1.<br>
 I also thought it would be fun for users to be able to make comments, so I decided to use Disqus. For each artist to have its
 own comment thread, I had to make a page for each band.<br>
-Check it out at <a href="http://lollaprojct.herokuapp.com">lollaprojct.herokuapp.com</a>
+Check it out at <a href="http://lollaproject.herokuapp.com">lollaproject.herokuapp.com</a>
